@@ -1,3 +1,7 @@
+body {
+  background-color: #9c9c9c;
+
+}
 #wrapper {
   width: 1170px;
   margin: 0 auto;
@@ -13,8 +17,6 @@ img {
 }
 
 .menu-item {
-  /* margin: 0 auto; */
-
   width: 75%;
 }
 
@@ -38,4 +40,31 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   color: black;
+}
+
+.slick-slide img {
+  /* object-fit: cover; */
+  /* height: 50vh; */
+}
+
+.slick-next {
+  right: 15px;
+}
+
+.slick-prev {
+  left: 15px;
+  z-index: 9;
+}
+
+.slick-dots {
+  bottom: 150px;
+}
+/* .slick-dotted.slick-slider {
+  margin-bottom: 0;
+} */
+
+
+.slick-dots li button:before {
+  font-size: 40px;
+  color: white;
 }
