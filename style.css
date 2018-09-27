@@ -1,7 +1,13 @@
-body {
-  background-color: #9c9c9c;
-
+* {
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: white;
+}
+
 #wrapper {
   width: 1170px;
   margin: 0 auto;
@@ -57,7 +63,7 @@ img {
 }
 
 .slick-dots {
-  bottom: 150px;
+  bottom: 120px;
 }
 /* .slick-dotted.slick-slider {
   margin-bottom: 0;
